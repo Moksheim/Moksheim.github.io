@@ -1,0 +1,86 @@
+body {
+    background-color: aliceblue;
+}
+
+
+#bibo {
+    position: relative;
+    background-image: url("../bilder/bibo.jpg");
+    height: 350px;
+    width: 469px;
+    background-size: contain;
+}
+
+#tyv {
+    position: absolute;
+    background-image: url("../bilder/diy.png");
+    background-position-x: 8px;
+    height: 150px;
+    width: 90px;
+    left: -100px;
+    background-size: cover;
+    animation: tyv 7s infinite linear,
+        run 0.5s infinite steps(6);
+}
+
+@keyframes tyv {
+    100% { left: 110%; }
+}
+
+@keyframes run {
+    100% { background-position-x: 600px;}
+}
+
+#datamaskin {
+    display: block;
+    width: 750px;
+}
+
+#hovedkort {
+    background-image: url("../bilder/hovedkort.png");
+    position: relative;
+    height: 390px;
+    width: 250px;
+    background-size: cover;
+    left: 25px; 
+}
+
+#ram {
+    background-image: url("../bilder/ram.png");
+    position: relative;
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+}
+
+#cpu {
+    background-image: url("../bilder/cpu.png");
+    position: relative;
+    height: 390px;
+    width: 500px;
+    background-size: cover;
+}
+
+#skjermkort {
+    background-image: url("../bilder/skjermkort.png");
+    position: relative;
+    height: 390px;
+    width: 525px;
+    background-size: cover;
+}
+
+#wifi {
+    background-image: url("../bilder/wifi.png");
+    position: relative;
+    height: 390px;
+    width: 525px;
+    background-size: cover;
+}
+
+#ssd {
+    background-image: url("../bilder/LEGG TIL ET BILDE HER.png");
+    position: relative;
+    height: 390px;
+    width: 525px;
+    background-size: cover;
+}
