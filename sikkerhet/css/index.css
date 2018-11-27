@@ -4,7 +4,7 @@ body {
 
 
 #bibo {
-    position: relative;
+    position: relative; 
     background-image: url("../bilder/bibo.jpg");
     height: 350px;
     width: 469px;
