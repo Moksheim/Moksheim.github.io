@@ -1,3 +1,17 @@
 body {
-    background-color: rgb(188, 224, 255);
+    background-color: rgb(227, 242, 255);
 }
+
+article {
+    width: 1000px;
+}
+
+tim {
+    position: relative; 
+    background-image: url("../bilder/tim.jpeg");
+    height: 350px;
+    width: 469px;
+    background-size: contain;
+   display: block;
+}
+
