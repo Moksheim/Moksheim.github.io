@@ -6,7 +6,7 @@ article {
     width: 1000px;
 }
 
-tim {
+#tim {
     position: relative; 
     background-image: url("../bilder/tim.jpeg");
     height: 350px;
