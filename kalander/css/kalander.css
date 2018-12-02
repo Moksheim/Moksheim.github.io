@@ -5,6 +5,7 @@
     background-repeat: no-repeat; 
     width: 100vw;
     height: 100vh;
+    background-color: rgb(207, 231, 252);
 }
 
 #luker {
@@ -12,7 +13,7 @@
     grid-template-columns: repeat(4,1fr);
     align-items: center;
     vertical-align: center;
-    width: 900px;
+    width: 1200px;
     height: 900px;
     margin-left: 20vw;
     margin-top: 10vh;
@@ -21,7 +22,7 @@
 .luke {
     color: white;
     text-align: center;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 1px black;
     font-size: 2em;
     border: solid grey 1px;
     width: 60px;
@@ -30,13 +31,13 @@
 }
 
 #vis {
-    width: 500px;
+    width: 600px;
     height: 500px;
     border: solid red 1px;
     display: none;
     position:absolute;
-    top: 10em;
-    left: 10em;
+    top: 18em;
+    left: 32em;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
