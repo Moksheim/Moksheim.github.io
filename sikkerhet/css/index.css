@@ -4,11 +4,23 @@ body {
 
 
 #bibo {
-    position: relative; 
+    position: absolute; 
     background-image: url("../bilder/bibo.jpg");
     height: 350px;
     width: 469px;
     background-size: contain;
+    top: 82px;
+    left:800px;
+}
+
+#maskin {
+    position: absolute;
+    background-image: url("../bilder/sikker.jpg");
+    height: 215px;
+    width: 469px;
+    background-size: contain;
+    top: 450px;
+    left: 800px;
 }
 
 #tyv {
