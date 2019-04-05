@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(186, 233, 252);
+}
+
+img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    top: 109vh;
+    left: 7vw;
+    font-size:22px;
+}
